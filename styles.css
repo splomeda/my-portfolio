@@ -1,0 +1,13 @@
+/* CSS by Steven Plomedahl */
+/* Color Palette 
+Black = #000000
+Navy = #14213D
+Gold = #FCA311
+Light Gray = #E5E5E5
+White = #FFFFFF
+*/
+
+/* GLOBAL (base) MOBILE FIRST */
+body {
+  background-color: #e5e5e5;
+}
