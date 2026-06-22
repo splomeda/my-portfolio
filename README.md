@@ -6,3 +6,5 @@ This is a multi-page portfolio website with pages that include the home/index pa
 
 This website uses HTML and CSS and has no javascript.
 The HTML is semantic and validated.
+
+https://splomeda.github.io/my-portfolio/
