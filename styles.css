@@ -90,6 +90,14 @@ nav a:hover {
 main {
   padding-top: 20px;
 }
+.project-links a {
+  color: #000000;
+  text-decoration: none;
+}
+.project-links a:hover {
+  text-decoration: underline;
+  color: blue;
+}
 .card-row {
   display: grid;
   gap: 20px;
@@ -101,7 +109,7 @@ main {
   flex: 200px;
   background-color: #ffffff;
   margin: 20px;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
   border-radius: 12px;
 }
@@ -123,6 +131,18 @@ main {
   width: 100%;
   justify-content: center;
   align-items: center;
+}
+.contact a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}
+.contact a:hover {
+  text-decoration: underline;
+  color: blue;
 }
 .contact-info {
   font-size: 32px;
@@ -157,6 +177,9 @@ main {
   padding-right: 70px;
   color: #525252;
   font-size: 18px;
+}
+.body li {
+  margin-left: 50px;
 }
 #bio-info-wrapper {
   display: flex;

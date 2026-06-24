@@ -13,8 +13,8 @@
     <nav>
       <ul>
         <li><a href="index.html">home</a></li>
-        <li><a href="about.html">about</a></li>
         <li><a href="projects.html">projects</a></li>
+        <li><a href="about.html">about</a></li>
         <li><a href="resume.html">resume</a></li>
         <li><a href="contact.html">contact</a></li>
       </ul>
@@ -30,32 +30,283 @@
       </div>
       <main>
         <div class="card-row">
-          <section>
-            <img
-              src="images/sierracrest800x500.jpg"
-              alt="Sierra Crest Golf & River Club website"
-            />
-            <h4>Sierra Crest Golf & River Club</h4>
+          <section class="project-links">
+            <a
+              href="https://codepen.io/puhhqebz-the-sasster/pen/ogYoGoG"
+              target="_blank"
+            >
+              <img
+                src="images/sierracrest800x500.jpg"
+                alt="Sierra Crest Golf & River Club website"
+              />
+              <h4>Sierra Crest Golf & River Club</h4></a
+            >
+            <h4>Project Context</h4>
+            <p>
+              This project began as a lightweight exploration of motion‑driven
+              hero sections for modern landing pages. The goal was to prototype
+              a visually engaging background that could serve as a foundation
+              for future hero layouts in branding, wellness, or tech‑focused
+              websites. The emphasis was on creating atmosphere without
+              overwhelming the content layered on top.
+            </p>
+            <h4>Requirements</h4>
+            <ul>
+              <li>Create a smooth, looping animated gradient background</li>
+              <li>
+                Keep the code minimal and modular for reuse in future projects
+              </li>
+              <li>Ensure the animation performs well across browsers</li>
+              <li>Center hero text cleanly without layout shifts</li>
+              <li>Avoid heavy libraries or unnecessary dependencies</li>
+            </ul>
+            <h4>Approach</h4>
+            <p>
+              I built the layout using a single-container structure with a
+              full‑viewport flexbox wrapper to keep the hero text perfectly
+              centered. The animated background uses CSS keyframes to transition
+              between multiple color stops, creating a soft, organic motion
+              effect.
+            </p>
+
+            <p>
+              The design philosophy was: lightweight, reusable, and visually
+              expressive.
+            </p>
+
+            <p>
+              I also separated concerns clearly — animation in CSS, structure in
+              HTML — so the component can drop into any project without
+              modification.
+            </p>
+            <h4>Tech Stack Used</h4>
+            <ul>
+              <li>
+                <strong>HTML5</strong> — semantic structure for the hero
+                container and text
+              </li>
+              <li>
+                <strong>CSS3</strong> — gradient animation, keyframes, flexbox
+                centering, fade‑in effects
+              </li>
+              <li>
+                <strong>No JavaScript</strong> — intentionally kept
+                dependency‑free for performance and portability
+              </li>
+            </ul>
+            <h4>Challenges Overcome</h4>
+            <ul>
+              <li>
+                <strong>Smoothing the gradient transitions</strong><br />
+                Early versions had harsh color jumps. I refined the keyframe
+                timing and added intermediate color stops to create a more fluid
+                motion.
+              </li>
+              <li>
+                <strong>Preventing banding on large screens</strong><br />
+                I adjusted the gradient angle and color distribution to reduce
+                visible banding on 4K displays.
+              </li>
+              <li>
+                <strong>Balancing animation intensity with readability</strong
+                ><br />
+                The background needed to feel alive without distracting from the
+                centered text. I tuned opacity, saturation, and animation
+                duration to hit the right balance.
+              </li>
+            </ul>
+            <h4>Outcome</h4>
+            <ul>
+              <p>
+                The final result is a clean, atmospheric hero concept that
+                demonstrates motion design, color theory, and modular layout
+                thinking. It serves as a reusable building block for future
+                landing pages and showcases my ability to create visually rich
+                components with minimal code.
+              </p>
+            </ul>
           </section>
-          <section>
-            <img src="images/hypemovies800x500.jpg" alt="Hype Movies website" />
-            <h4>Hype Movies</h4>
+          <section class="project-links">
+            <a
+              href="https://splomeda.github.io/PLOMEDAHL-4-build/"
+              target="_blank"
+            >
+              <img
+                src="images/hypemovies800x500.jpg"
+                alt="Hype Movies website"
+              />
+              <h4>Hype Movies</h4></a
+            >
+            <h4>Project Context</h4>
+            <p>
+              This project was created as a modular landing‑page build focused
+              on clean hierarchy, responsive layout patterns, and reusable
+              components. The goal was to design a flexible template that could
+              scale into a full brand site — with a hero section, service
+              blocks, image gallery, and a structured footer. It served as both
+              a design exercise and a demonstration of production‑ready HTML/CSS
+              architecture.
+            </p>
+            <h4>Requirements</h4>
+            <ul>
+              <li>
+                Build a fully responsive landing page using clean, semantic HTML
+              </li>
+              <li>
+                Create a hero section with strong visual hierarchy and centered
+                messaging
+              </li>
+              <li>Design a services grid with icons and descriptive text</li>
+              <li>
+                Implement a gallery section with consistent spacing and
+                alignment
+              </li>
+              <li>
+                Maintain modularity so each section can be reused in future
+                builds
+              </li>
+              <li>Keep the code lightweight and easy to maintain</li>
+              <li>Ensure cross‑browser consistency without hacks</li>
+            </ul>
+            <h4>Approach</h4>
+            <p>
+              I approached the layout using a component‑driven structure, where
+              each section (hero, services, gallery, footer) functions as an
+              independent module. This allowed for clean separation of concerns
+              and easy scalability.
+            </p>
+
+            <h4>Key decisions included:</h4>
+
+            <ul>
+              <li>
+                Using flexbox and grid for predictable, responsive alignment
+              </li>
+              <li>
+                Establishing a consistent spacing system to unify the visual
+                rhythm
+              </li>
+              <li>
+                Applying clear typographic hierarchy to guide the user through
+                the page
+              </li>
+              <li>
+                Keeping the CSS modular, with reusable classes for layout,
+                spacing, and typography
+              </li>
+              <li>
+                Designing the hero to anchor the page with strong contrast and
+                centered content
+              </li>
+              <li>
+                The result is a layout that feels structured, modern, and
+                adaptable to any brand style.
+              </li>
+            </ul>
+            <h4>Tech Stack Used</h4>
+            <ul>
+              <li>
+                <strong>HTML5</strong> — semantic structure, modular sectioning
+              </li>
+              <li>
+                <strong>CSS3</strong> — flexbox, grid, spacing system,
+                responsive breakpoints
+              </li>
+              <li>
+                <strong>GitHub Pages</strong> — hosting and version control
+                workflow
+              </li>
+            </ul>
+            <h4>Challenges Overcome</h4>
+            <ol>
+              <li>
+                <strong>Achieving consistent spacing across sections</strong
+                ><br />
+                Different content blocks (hero, services, gallery) needed
+                unified vertical rhythm. I solved this by defining a spacing
+                scale and applying it globally.
+              </li>
+              <li>
+                <strong>Balancing image sizes in the gallery</strong><br />
+                Images with different aspect ratios caused uneven rows. I
+                resolved this using CSS object‑fit and a fixed‑ratio container
+                to maintain visual consistency.
+              </li>
+              <li>
+                <strong
+                  >Ensuring clean responsiveness without layout collapse</strong
+                ><br />
+                Some early breakpoints caused text wrapping and misalignment. I
+                refined the grid and flex rules to maintain structure from
+                mobile to desktop.
+              </li>
+              <li>
+                <strong>Maintaining modularity</strong><br />
+                The goal was to avoid “one‑off” styling. I refactored repeated
+                patterns into reusable utility classes, making the layout
+                scalable and easier to maintain.
+              </li>
+            </ol>
+            <h4>Outcome</h4>
+            <p>
+              The final build is a clean, modular landing page that demonstrates
+              your strengths in layout architecture, responsive design, and
+              component‑based thinking. It serves as a strong template for
+              future client sites and showcases your ability to create
+              production‑ready front‑end structures with clarity and precision.
+            </p>
           </section>
-          <section>
-            <img src="images/website1.jpg" alt="Website One thumbnail" />
-            <h4>Website One</h4>
+          <section class="project-links">
+            <a href="#">
+              <img src="images/website1.jpg" alt="Website One thumbnail" />
+              <h4>Website One</h4></a
+            >
+            <h4>Project Context</h4>
+            <h4>Requirements</h4>
+            <h4>Approach</h4>
+            <h4>Key Decisions</h4>
+            <h4>Tech Stack Used</h4>
+            <h4>Challenges Overcome</h4>
+            <h4>Outcome</h4>
           </section>
-          <section>
-            <img src="images/website2.jpg" alt="Website Two thumbnail" />
-            <h4>Website Two</h4>
+          <section class="project-links">
+            <a href="#">
+              <img src="images/website2.jpg" alt="Website Two thumbnail" />
+              <h4>Website Two</h4></a
+            >
+            <h4>Project Context</h4>
+            <h4>Requirements</h4>
+            <h4>Approach</h4>
+            <h4>Key Decisions</h4>
+            <h4>Tech Stack Used</h4>
+            <h4>Challenges Overcome</h4>
+            <h4>Outcome</h4>
           </section>
-          <section>
-            <img src="images/website3.jpg" alt="Website Three thumbnail" />
-            <h4>Website Three</h4>
+          <section class="project-links">
+            <a href="#">
+              <img src="images/website3.jpg" alt="Website Three thumbnail" />
+              <h4>Website Three</h4></a
+            >
+            <h4>Project Context</h4>
+            <h4>Requirements</h4>
+            <h4>Approach</h4>
+            <h4>Key Decisions</h4>
+            <h4>Tech Stack Used</h4>
+            <h4>Challenges Overcome</h4>
+            <h4>Outcome</h4>
           </section>
-          <section>
-            <img src="images/website4.jpg" alt="Website Four thumbnail" />
-            <h4>Website Four</h4>
+          <section class="project-links">
+            <a href="#">
+              <img src="images/website4.jpg" alt="Website Four thumbnail" />
+              <h4>Website Four</h4></a
+            >
+            <h4>Project Context</h4>
+            <h4>Requirements</h4>
+            <h4>Approach</h4>
+            <h4>Key Decisions</h4>
+            <h4>Tech Stack Used</h4>
+            <h4>Challenges Overcome</h4>
+            <h4>Outcome</h4>
           </section>
         </div>
       </main>
