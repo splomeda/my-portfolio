@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Projects - Sierra Crest</title>
+  </head>
+  <body>
+    <header>
+      <h1>Projects</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="resume.html">resume</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+    <div id="wrapper">
+      <div id="header-bottom">
+        <h2>sierra crest</h2>
+        <p class="intro">
+          a responsive web layout project built to present a high‑end golf and
+          river club through structured content, modular components, and a
+          polished visual hierarchy.
+        </p>
+      </div>
+      <main>
+        <div id="project-page-wrap">
+          <section class="project-page">
+            <a
+              href="https://codepen.io/puhhqebz-the-sasster/pen/ogYoGoG"
+              target="_blank"
+            >
+              <img
+                src="images/sierracrestFULL.jpg"
+                alt="Sierra Crest Golf & River Club website"
+              />
+              <h3>Sierra Crest Golf & River Club</h3></a
+            >
+            <div id="text-wrap">
+              <h4>Project Context</h4>
+              <p>
+                This project began as a lightweight exploration of motion‑driven
+                hero sections for modern landing pages. The goal was to
+                prototype a visually engaging background that could serve as a
+                foundation for future hero layouts in branding, wellness, or
+                tech‑focused websites. The emphasis was on creating atmosphere
+                without overwhelming the content layered on top.
+              </p>
+              <h4>Requirements</h4>
+              <ul>
+                <li>Create a smooth, looping animated gradient background</li>
+                <li>
+                  Keep the code minimal and modular for reuse in future projects
+                </li>
+                <li>Ensure the animation performs well across browsers</li>
+                <li>Center hero text cleanly without layout shifts</li>
+                <li>Avoid heavy libraries or unnecessary dependencies</li>
+              </ul>
+              <h4>Approach</h4>
+              <p>
+                I built the layout using a single-container structure with a
+                full‑viewport flexbox wrapper to keep the hero text perfectly
+                centered. The animated background uses CSS keyframes to
+                transition between multiple color stops, creating a soft,
+                organic motion effect.
+              </p>
+
+              <p>
+                The design philosophy was: lightweight, reusable, and visually
+                expressive.
+              </p>
+
+              <p>
+                I also separated concerns clearly — animation in CSS, structure
+                in HTML — so the component can drop into any project without
+                modification.
+              </p>
+              <h4>Tech Stack Used</h4>
+              <ul>
+                <li>
+                  <strong>HTML5</strong> — semantic structure for the hero
+                  container and text
+                </li>
+                <li>
+                  <strong>CSS3</strong> — gradient animation, keyframes, flexbox
+                  centering, fade‑in effects
+                </li>
+                <li>
+                  <strong>No JavaScript</strong> — intentionally kept
+                  dependency‑free for performance and portability
+                </li>
+              </ul>
+              <h4>Challenges Overcome</h4>
+              <ul>
+                <li>
+                  <strong>Smoothing the gradient transitions</strong><br />
+                  Early versions had harsh color jumps. I refined the keyframe
+                  timing and added intermediate color stops to create a more
+                  fluid motion.
+                </li>
+                <li>
+                  <strong>Preventing banding on large screens</strong><br />
+                  I adjusted the gradient angle and color distribution to reduce
+                  visible banding on 4K displays.
+                </li>
+                <li>
+                  <strong>Balancing animation intensity with readability</strong
+                  ><br />
+                  The background needed to feel alive without distracting from
+                  the centered text. I tuned opacity, saturation, and animation
+                  duration to hit the right balance.
+                </li>
+              </ul>
+              <h4>Outcome</h4>
+              <p>
+                The final result is a clean, atmospheric hero concept that
+                demonstrates motion design, color theory, and modular layout
+                thinking. It serves as a reusable building block for future
+                landing pages and showcases my ability to create visually rich
+                components with minimal code.
+              </p>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <p>
+        Built by Steven Plomedahl. Microsoft Copilot used to generate project
+        details.
+      </p>
+    </footer>
+  </body>
+</html>
