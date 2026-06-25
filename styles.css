@@ -336,15 +336,12 @@ footer {
 
 /* For iPads/tablets */
 @media screen and (min-width: 800px) and (max-width: 1400px) {
-  main {
-    padding: 0;
-    margin: 0;
-  }
   .card-row {
     grid-template-columns: repeat(2, 1fr);
   }
   #header-bottom {
     height: auto;
     padding: 50px;
+    padding-bottom: 40px;
   }
 }
