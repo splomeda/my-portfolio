@@ -195,16 +195,6 @@ main {
   width: 350px;
   height: 350px;
 }
-#bio {
-  display: flex;
-  width: 90%;
-  height: auto;
-  justify-content: center;
-}
-#bio img {
-  border: 10px solid #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
-}
 #bio-wrapper {
   display: flex;
   flex-direction: column;
@@ -212,6 +202,15 @@ main {
   align-items: center;
   margin-top: 50px;
   margin-bottom: 30px;
+}
+#bio {
+  display: flex;
+  justify-content: center;
+}
+#bio img {
+  width: 80%;
+  border: 10px solid #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
 }
 .body {
   padding-left: 70px;
