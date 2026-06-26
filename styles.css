@@ -293,19 +293,18 @@ footer {
     color: #3b3b3b;
     font-size: 18px;
   }
+  #bio-wrapper {
+    flex-direction: row;
+  }
   #bio {
     display: flex;
-    max-width: 250px;
+    max-width: 400px;
     justify-content: center;
     align-items: center;
   }
   #bio img {
-    max-width: 200px;
     width: 100%;
     height: auto;
-  }
-  #bio-wrapper {
-    flex-direction: row;
   }
   #bio-info-wrapper {
     padding-top: 0;
